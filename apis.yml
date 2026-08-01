@@ -1,7 +1,25 @@
 aid: reedsy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reedsy.png
 name: Reedsy
-description: Reedsy is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Reedsy is a marketplace and toolset for authors and publishers, connecting
+  writers with a curated network of more than 3,700 vetted publishing professionals
+  including editors, book designers, marketers, ghostwriters, web designers, and translators.
+  Beyond the marketplace, Reedsy offers Reedsy Studio (a free writing and book-formatting
+  application), Reedsy Learning (courses and events), Reedsy Discovery (book reviews),
+  and Reedsy Prompts (weekly writing prompts). It supports authors across the full
+  self-publishing journey from manuscript development through market launch. Reedsy
+  is backed by Seedcamp and publishes no public developer API today.
 url: https://raw.githubusercontent.com/api-evangelist/reedsy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Publishing
+- Writing
+- Marketplace
+- Book Publishing
+- Authors
+- Editing
+- Self-Publishing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,28 @@ maintainers:
 common:
 - type: Website
   url: http://reedsy.com
+- type: Blog
+  url: https://reedsy.com/blog/
+- type: TermsOfService
+  url: https://reedsy.com/about/tou
+- type: PrivacyPolicy
+  url: https://reedsy.com/about/privacy
+- type: Support
+  url: https://reedsy.com/faq
+- type: GitHubOrganization
+  url: https://github.com/reedsy
+- type: WellKnown
+  url: well-known/reedsy-well-known.yml
+- type: SecurityTxt
+  url: well-known/reedsy-security.txt
+- type: VulnerabilityDisclosure
+  url: security/reedsy-vulnerability-disclosure.yml
+- type: Security
+  url: https://reedsy.com/security
+- type: DomainSecurity
+  url: security/reedsy-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

@@ -1,0 +1,6 @@
+Contact: mailto:security@reedsy.com
+Expires: 2030-01-01T00:00:00.000Z
+Policy: https://reedsy.com/security
+Canonical: https://reedsy.com/.well-known/security.txt
+Canonical: https://reedsy.com/security.txt
+Canonical: https://auth.reedsy.com/security.txt
